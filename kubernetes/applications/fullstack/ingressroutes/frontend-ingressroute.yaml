@@ -1,0 +1,16 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: frontend
+  namespace: fullstack
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`frontend.local`)
+      kind: Rule
+      services:
+        - name: frontend-service
+          port: 80
+  tls:
+    secretName: frontend-tls

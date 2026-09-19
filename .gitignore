@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Binary files
+*.tar
+*.tar.gz
+*.tgz
+runc.*
+cni-plugins-*
+containerd-*
+
+# Kubernetes secrets
+*-secret.yaml
