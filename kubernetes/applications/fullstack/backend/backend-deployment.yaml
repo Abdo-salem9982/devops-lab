@@ -19,7 +19,7 @@ spec:
         - name: gitlab-registry
       containers:
       - name: backend
-        image: registry.gitlab.com/abdosalem9982/fullstack-app/backend:2a00160e
+        image: ghcr.io/abdo-salem9982/devops-lab/backend:fecc2e186800590a787ff8337d071265faa35b77
         ports:
         - containerPort: 5000
         envFrom:

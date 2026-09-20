@@ -19,7 +19,7 @@ spec:
         - name: gitlab-registry
       containers:
       - name: frontend
-        image: registry.gitlab.com/abdosalem9982/fullstack-app/frontend:latest
+        image: ghcr.io/abdo-salem9982/devops-lab/frontend:fecc2e186800590a787ff8337d071265faa35b77
         ports:
         - containerPort: 80
         resources:
