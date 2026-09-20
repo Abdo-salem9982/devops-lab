@@ -19,7 +19,7 @@ spec:
         - name: gitlab-registry
       containers:
       - name: backend
-        image: ghcr.io/abdo-salem9982/devops-lab/backend:5a4603866e60fc532b5c499106732a87b534c166
+        image: ghcr.io/abdo-salem9982/devops-lab/backend:dc35c0083c9b322fc43e52870da1b44ed99b8dd1
         ports:
         - containerPort: 5000
         envFrom:
