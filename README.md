@@ -10,7 +10,7 @@ Production-like DevOps/DevSecOps environment with Kubernetes, Argo CD, GitHub Ac
 
 | Component        | Purpose                     |
 | ---------------- | --------------------------- |
-| Kubernetes v1.30 | Container orchestration     |
+| Kubernetes v1.37.0 | Container orchestration     |
 | Flannel          | CNI network plugin          |
 | MetalLB          | LoadBalancer for bare-metal |
 | Traefik          | Ingress controller          |
