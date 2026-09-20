@@ -19,7 +19,7 @@ spec:
         - name: gitlab-registry
       containers:
       - name: frontend
-        image: ghcr.io/abdo-salem9982/devops-lab/frontend:fecc2e186800590a787ff8337d071265faa35b77
+        image: ghcr.io/abdo-salem9982/devops-lab/frontend:4b6fc5c2709756fcc0107186038172a2184204b7
         ports:
         - containerPort: 80
         resources:
