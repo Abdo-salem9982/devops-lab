@@ -38,6 +38,38 @@ Node.js + Express (Backend)
 PostgreSQL (Database)
 ```
 
+## Screenshots
+
+### Argo CD Dashboard
+![Argo CD Dashboard](screenshots/argocd-dashboard.png)
+
+Argo CD manages all applications through GitOps. Each application is synced automatically from the GitHub repository.
+
+### Argo CD Application Tree
+![Argo CD App Tree](screenshots/argocd-app-tree.png)
+
+Fullstack application tree showing all Kubernetes resources managed by Argo CD.
+
+### GitHub Actions CI/CD
+![GitHub Actions](screenshots/github-actions.png)
+
+CI/CD pipeline with 4 stages: Build, Test, Security Scan, and Update Kubernetes Manifests.
+
+### Traefik Dashboard
+![Traefik Dashboard](screenshots/traefik-dashboard.png)
+
+Traefik ingress controller managing HTTP routers, services, and middlewares.
+
+### Prometheus Targets
+![Prometheus Targets](screenshots/prometheus-targets.png)
+
+Prometheus monitoring all targets including kube-state-metrics, node-exporter, and itself.
+
+### Grafana Dashboard
+![Grafana Dashboard](screenshots/grafana-dashboard.png)
+
+Grafana Node Exporter dashboard showing CPU, memory, disk, and network metrics.
+
 ## Project Structure
 
 ```
